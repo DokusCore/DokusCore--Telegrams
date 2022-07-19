@@ -5,7 +5,7 @@ description "Telegrams for DokusCore - You've got mail!"
 author 'http://DokusCore.com'
 fx_version "adamant"
 games {"rdr3"}
-version '0.0.1 BETA'
+version '0.0.2'
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 client_scripts {
