@@ -5,7 +5,7 @@ description "Telegrams for DokusCore - You've got mail!"
 author 'http://DokusCore.com'
 fx_version "adamant"
 games {"rdr3"}
-version '0.0.2'
+version '0.0.3'
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 client_scripts {
@@ -25,6 +25,7 @@ server_scripts {
 --------------------------------------------------------------------------------
 shared_script {
   '@DokusCore/[ Configs ]/[ Core ]/Core.lua',
+  '@DokusCore/[ Configs ]/[ Core ]/Modules.lua',
   '@DokusCore/[ Configs ]/[ Modules ]/Telegrams.lua',
   '@DokusCore/[ Core ]/[ System ]/[ Shared ]/CBSystem.lua',
 }

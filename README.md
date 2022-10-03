@@ -1,7 +1,7 @@
 ---
 <p align="center">
   <img width="600" height="200" src="https://user-images.githubusercontent.com/49053928/111937011-2e9b8080-8ac7-11eb-914a-a0d94380d611.gif"><br>
- <b>DokusCore Telegrams (v0.0.1) [BETA]</b> - You've got mail!.
+ <b>DokusCore Telegrams (v0.0.3) [BETA]</b> - You've got mail!.
 </p>
 
 ---
@@ -23,8 +23,11 @@ set up a DokusCore server, see the following video: [Installation video](https:/
 
 ---
 # Installation
-Simply extract the `DokusCore--Telegrams` into your `resources` folder, and <br>
-start it via `ensure DokusCore--Telegrams`.
+Simply extract the `DokusCore--Telegrams` into your `resources` folder, <br>
+and start it via `ensure DokusCore--Telegrams`. Then go to the Modules.lua <br>
+file of `DokusCore` itself and at `_Modules = { Telegrams }` set it to `true`. <br>
+If left to `false` the core will create its own character on ID 1 and not the <br>
+multi characters plugin.
 
 ---
 # Plugin Information
